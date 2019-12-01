@@ -1,0 +1,152 @@
+
+.dp {
+	width: 18.26rem;
+	margin-left: .46rem;
+	margin-right: .46rem;
+	height: 100vh;
+	position: relative;
+}
+.dp .dp-header {
+	display: flex;
+	flex-direction: row;
+	margin-top: .44rem;
+}
+.dp .dp-headerl {
+	width: 6.8rem;
+	height: .56rem;
+	background: url('../static/icon/tl.png');
+	background-size: 6.8rem .56rem;
+}
+.dp .dp-content {
+	margin-top: .36rem;
+	display: flex;
+	flex-direction: row;
+}
+.dp .dp-headerr {
+	width: 6.8rem;
+	height: .56rem;
+	background: url('../static/icon/tr.png');
+	background-size: 6.8rem .56rem;
+}
+.dp .dp-headerc {
+	color: #2AD0FF;
+	font-size: .48rem;
+	margin-left: .15rem;
+	margin-right: .15rem;
+}
+.dp .dpc-left .dpc-left_top{
+	width: 4.54rem;
+	height: 2.99rem;
+	background: url('../static/icon/dplcentop.png');
+	background-size:  4.54rem 2.99rem;
+}
+.dp .dpc-left .dpc-left_center{
+	margin-top: .27rem;
+	width: 4.53rem;
+	height: 2.64rem;
+	background: url('../static/icon/dplcenter.png');
+	background-size: 4.53rem 2.64rem;
+}
+.dp .dpc-left .dpc-left_bottom{
+	margin-top: .28rem;
+	width: 4.54rem;
+	height: 2.64rem;
+	background: url('../static/icon/dplbottom.png');
+	background-size: 4.54rem 2.64rem;
+}
+.dp .dpc-center {
+	margin-left: .34rem;
+	margin-right: .34rem;
+}
+.dp .dpc-center_top {
+	display: flex;
+}
+.dp .dpcommon {
+	width: 2.38rem;
+	height: 1.23rem;
+	background: url('../static/icon/dpcborder.png');
+	background-size: 2.38rem 1.23rem;
+}
+.dp .dp-map {
+	position: relative;
+	margin-top: .71rem;
+	width: 7.37rem;
+	height: 5.43rem;
+	background: url('../static/icon/map.png');
+	background-size: 7.37rem 5.43rem;
+}
+.dp .dp-location {
+	margin-top: .44rem;
+	width: 7.53rem;
+	height: 1.08rem;
+	background: url('../static/icon/location.png');
+	background-size: 7.53rem 1.08rem;
+}
+.dp .dpcommon2 {
+	margin-left: .27rem;
+}
+.dp .dpcommon3 {
+	margin-left: .34rem;
+}
+.dp .dpc-right .dpcr-top{
+	width: 5.55rem;
+	height: 2.96rem;
+	background: url('../static/icon/dpcr-top.png');
+	background-size: 5.55rem 2.96rem;
+}
+.dp .dpc-right .dpcr-center {
+	width: 5.55rem;
+	height: 3.05rem;
+	background: url('../static/icon/dpcr-center.png');
+	background-size: 5.55rem 3.05rem;
+}
+.dp .dpcr-bottom {
+	position: relative;
+	margin-top: .25rem;
+	width: 5.54rem;
+	height: 2.64rem;
+	background: url('../static/icon/lyborder.png');
+	background-size: 5.54rem 2.64rem;
+}
+.dp .dp-mapcommon {
+	position: absolute;
+	width: 2.55rem;
+	height: .46rem;
+	background: url('../static/icon/lightborder.png');
+	background-size: 2.55rem .46rem;
+	font-size: 12px;
+	color: rgb(49, 181, 226);
+}
+.dp .dp-mapcommon::before {
+	display: block;
+	content: '';
+	position: absolute;
+	left: .93rem;
+	top: -.3rem;
+	width: .6rem;
+	height: .6rem;
+	background: url('../static/icon/light.png');
+	background-size: .6rem .6rem;
+	background-repeat: no-repeat;
+}
+.dp .map1 {
+	top: .69rem;
+	left: 4.24rem;
+}
+.dp .map2 {
+	top: 2.27rem;
+	left: 4rem;
+}
+.dp .map3 {
+	top: 4.19rem;
+	left: 2.04rem;
+}
+.dp .dpcr-bottombox {
+	position: absolute;
+	top: .52rem;
+	left: .37rem;
+	width: 4.87rem;
+	height: 1.86rem;
+	font-size: .16rem;
+	overflow: hidden;
+}
